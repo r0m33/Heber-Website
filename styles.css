@@ -1,0 +1,104 @@
+/* #region Body */
+
+body {
+    margin: 0;
+}
+
+/* #endregion */
+
+/* #region Hero Images */
+
+header {
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    margin-top: 0;
+
+}
+
+#home {
+    background-image: url(Images/mountain.webp);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#acts {
+    background-image: url(Images/train.webp);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#food {
+    background-image: url(Images/dairy\ keen.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#sights {
+    background-image: url(Images/lake.webp);
+    background-position: top;
+    background-attachment: fixed;
+}
+/* #endregion */
+
+/* #region Nav */
+
+nav>ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0%;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    margin: 0%;    
+}
+
+nav>ul>a>li {
+    padding: 10px;
+    font-size: 1vw;
+}
+
+nav>ul>a>li:hover {
+    background-color: aliceblue;
+}
+
+nav>ul>a>li {
+    text-decoration: none;
+    color: black;
+}
+
+#active {
+    background-color: darkblue;
+    color: white;
+}
+
+/* #endregion */
+
+h1 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    margin-left: 1.5%;
+}
+
+p {
+    font-size: large;
+    padding: 1%;
+}
+
+html {
+    background-color: antiquewhite;
+}
+
+article>figure>img {
+    display: block;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
