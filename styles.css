@@ -75,8 +75,25 @@ nav>ul>a>li {
     color: white;
 }
 
+
+/* #region Phone Nav */
+
+@media screen and (max-width:420px){
+    nav>ul {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    nav>ul>a>li {
+        font-size: x-large;
+
+    }
+}
+
 /* #endregion */
 
+/* #endregion */
+
+/* #region Other */
 h1 {
     text-align: center;
     font-size: 5vw;
@@ -102,3 +119,5 @@ article>figure>img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* #endregion */
