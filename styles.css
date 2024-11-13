@@ -74,23 +74,6 @@ nav>ul>a>li {
     background-color: darkblue;
     color: white;
 }
-
-
-/* #region Phone Nav */
-
-@media screen and (max-width:420px){
-    nav>ul {
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    nav>ul>a>li {
-        font-size: x-large;
-
-    }
-}
-
-/* #endregion */
-
 /* #endregion */
 
 /* #region Other */
@@ -118,6 +101,46 @@ article>figure>img {
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* #endregion */
+
+
+/* #region Phone*/
+
+@media screen and (max-width:1170px){
+    nav>ul {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    nav>ul>a>li {
+        font-size: 7vw;
+    }
+    h1 {
+        font-size: 10vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 4vw;
+    }
+    header {
+        height: 60vh;
+    }
+    #home {
+        background-size: 200% 60vh;
+        background-position: 40% 0%;
+    }
+    #acts {
+        background-size: 200% 60vh;
+        background-position: 40% 0%;
+    }
+    #food {
+        background-size: 200% 65vh;
+        background-position: 60% 0%;
+    }
+    
 }
 
 /* #endregion */
